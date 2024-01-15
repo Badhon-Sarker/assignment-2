@@ -264,11 +264,11 @@ section{
     width: 50px;
  }
 
- .choose-us-section{
+ 
+  /* .choose-us-section{
   display:grid;
   
-  
- }
+ } */
 
  .offer-intro{
     color: #131318;
@@ -393,4 +393,32 @@ section{
     }
 
 
+    .introduction{
+        padding: 5px;
+    }
+    .offer-intro{
+        text-align: left;
+    }
+    
+    .choose-us-offer{
+        flex-direction: column;
+    
+    }
+
+    .hotel{
+        height: 90%;
+        width: 90%;
+    }
+
+    .map{
+        height: 90%;
+        width: 90%;
+    }
+
+    .best-price{
+        margin: 0 auto;
+        margin-top: 25px;
+        height: 100%;
+        width: 100%;
+    }
 }
