@@ -188,6 +188,14 @@ section{
     margin: 0px 300px;
 }
 
+.maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+ }
+
 .choose-destination-title{
     color: #131318;
     text-align: center;
@@ -226,6 +234,101 @@ section{
  }
 
 
+ .grid-img{
+    position: relative;
+ }
+
+ .maldives{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indonesia{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-img-two{
+    position: relative;
+}
+
+
+.srilanka{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.north-america{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.kashmir{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.grid-img-three{
+    position: relative;
+}
+
+.bangladesh{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bandarban{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  /* offer section */
 
 
@@ -369,12 +472,6 @@ section{
     justify-content: baseline;
 }
 
-/* .over-btn{
-    width: 250px;
-    height: 100px;
-    transform: rotate(-19.628deg);
-    border-radius: 16px;
-    background: #FF5400; */
 
 .news-img-container{
     position: relative;
@@ -713,6 +810,62 @@ section{
         padding: 5px 130px;
     }
 
+
+
+
+    .grid-img{
+        position: relative;
+     }
+
+     .grid-img img{
+        height: 100%;
+        width: 100%;
+     }
+
+     .grid-img-two img{
+        height: 100%;
+        width: 100%;
+     }
+
+     .grid-img-three img{
+        height: 100%;
+        width: 100%;
+     }
+
+     #mldv, #insa, #slka, #nram, #ksmr, #bd, #bdrbn{
+        height: 190px;
+     }
+
+     .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 700;
+     }
+
+    
+     .maldives{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .indonesia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     
 
