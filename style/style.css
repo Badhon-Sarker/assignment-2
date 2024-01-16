@@ -437,12 +437,34 @@ section{
 
 
     .nav-container{
-        flex-direction: column;
+        flex-direction: row;
 
     }
 
+    .nav-name{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+
+    .nav-name-div{
+        height: 50px;
+        
+    }
+
+    .nav-link-div a{
+        display: none;
+    }
+
+
     .nav-link-div{
-        gap: 5px;
+       background-image: url('../Images/bars-solid.svg');
+       background-repeat: no-repeat;
+       object-fit: contain;
+       height: 40px;
+       width: 40px;
+       margin-top: 20px;
     }
 
     .banner-link{
