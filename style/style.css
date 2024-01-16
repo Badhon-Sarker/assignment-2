@@ -10,7 +10,7 @@
 .btn-primary{
     border-radius: 8px;
     background: #FF5400;
-     width: 174px;
+     width: 155px;
      height: 52px;
      color: #FFF;
     text-align: center;
@@ -26,7 +26,7 @@
 /* nav-section */
 
 header{
-    max-width: 1170px;
+    max-width: 992px;
     margin: 0 auto;
 }
 
@@ -112,7 +112,7 @@ header{
 }
 
 .banner-npt{
-    width: 174px;
+    width: 155px;
     height: 20px;
     border-radius: 8px;
     background: #FFF;
@@ -131,7 +131,7 @@ header{
 
 
 main{
-    max-width: 1170px;
+    max-width: 992px;
     margin: 0 auto;
 }
 
@@ -179,22 +179,20 @@ section{
 
 /* choose-destination */
 
-/* .choose-destination-section{
-    display: flex;
-    flex-direction: column;
-} */
+
+
 
 .choose-destination-intro{
     margin: 0px 300px;
 }
 
-.maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban{
+/* .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban{
     color: #FFF;
     text-align: center;
     font-family: Mulish;
     font-size: 20px;
     font-weight: 700;
- }
+ } */
 
 .choose-destination-title{
     color: #131318;
@@ -212,11 +210,46 @@ section{
      font-weight: 400;
 }
 
-.choose-img-grid-1{
+
+  .img-grid-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    gap: 10px;
+  }
+
+  .img-grid-two{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    gap: 10px;
+
+  }
+
+  .img-grid-three{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    gap: 10px;
+  }
+  
+  .img-grid{
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+/* .choose-img-grid-1{
    display: flex;
    justify-content: space-between;
    gap: 10px;
    margin-top: 10px;
+} */
+/* 
+.choose-img-grid-1 > .grid-img img{
+   justify-content: center;
 }
 
 .choose-img-grid-2{
@@ -231,14 +264,14 @@ section{
     justify-content: space-between;
     gap: 10px;
     margin-top: 10px;
- }
+ } */
 
 
- .grid-img{
+ /* .grid-img{
     position: relative;
- }
+ } */
 
- .maldives{
+ /* .maldives{
     position: absolute;
     top: 0;
     left: 0;
@@ -247,9 +280,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.indonesia{
+/* .indonesia{
     position: absolute;
     top: 0;
     left: 0;
@@ -258,15 +291,15 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 
-.grid-img-two{
+/* .grid-img-two{
     position: relative;
-}
+} */
 
 
-.srilanka{
+/* .srilanka{
     position: absolute;
     top: 0;
     left: 0;
@@ -275,22 +308,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.north-america{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.kashmir{
+/* .north-america{
     position: absolute;
     top: 0;
     left: 0;
@@ -300,14 +320,27 @@ section{
     justify-content: center;
     align-items: center;
 
-}
+} */
 
 
-.grid-img-three{
+/* .kashmir{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+
+/* .grid-img-three{
     position: relative;
-}
+} */
 
-.bangladesh{
+/* .bangladesh{
     position: absolute;
     top: 0;
     left: 0;
@@ -317,9 +350,9 @@ section{
     justify-content: center;
     align-items: center;
 
-}
+} */
 
-.bandarban{
+/* .bandarban{
     position: absolute;
     top: 0;
     left: 0;
@@ -328,25 +361,27 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
  /* offer section */
 
 
- .introduction{
+ /* .introduction{
     padding-left: 300px;
     padding-right: 300px;
- }
+ } */
 
- .offer-img{
-    height: 50px;
-    width: 50px;
- }
-
+  
  
-  /* .choose-us-section{
+  /* .why-choose-us-section{
   display:grid;
   
  } */
+
+ .offer-img{
+    height: 50px;
+    width: 50px; 
+ }
+
 
  .offer-intro{
     color: #131318;
@@ -414,16 +449,18 @@ section{
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px;
+    
 }
 
 
 
 .newsletter-container{
     display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     justify-content: space-between;
-    align-items: center;
     margin-top: 25px;
     gap: 20px;
+    
 }
 
 .newsletter-title{
@@ -443,8 +480,8 @@ section{
 }
 
 .news-input-container input{
-    width: 393px;
-    height: 52px;
+    width: 100%;
+    height: 50px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     margin-bottom: 10px;
@@ -467,14 +504,16 @@ section{
     font-weight: 800;
 }
 
-.news-img-container{
-    display: flex;
-    justify-content: baseline;
+.news-img{
+    width: 100%;
+    height: 100%;
 }
+
 
 
 .news-img-container{
     position: relative;
+    width: 100%;
     
 }
    
@@ -544,8 +583,11 @@ section{
 }
 
 .qr-img{
-  margin-top: 80px;
-  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
 }
 
 
@@ -554,6 +596,7 @@ section{
 
 .footer{
     margin: 0 auto;
+    max-width: 992px;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
 }
@@ -586,8 +629,9 @@ section{
 
 .footer-icon{
     
-    margin: 40px 680px;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     
 }
 
@@ -686,27 +730,22 @@ section{
         margin: 0px;
     }
 
-    .choose-img-grid-1{
-        flex-direction: column;
-    }
-    
-    .choose-img-grid-2{
-        flex-direction: column;
-    
+    .img-grid-one{
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .choose-img-grid-3{
-        flex-direction: column;
+    .img-grid-two{
+        grid-template-columns: repeat(1, 1fr)
     }
 
-    .choose-img-grid-2 img{
+    .img-grid-three{
+        grid-template-columns: repeat(1, 1fr);
+    }
 
+    .img-grid{
         height: 200px;
     }
 
-    .choose-img-grid-3 img{
-        height: 200px;
-    }
 
 
     .introduction{
